@@ -3,6 +3,13 @@ import '../styling/index.css';
 import Button from '../components/Button';
 import exampleCall from '../api/exampleCall';
 
+const toDos = {
+  title: "Yello",
+  description: "Sup",
+  isComplete: true
+}
+
+
 function showAlert() {
   alert('You just clicked the button!');
 }
